@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,21 +13,6 @@
             text-align: center;
             padding: 30px;
             background-color: #f0f0f0;
-            position: relative;
-        }
-
-        header img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            right: 0; 
-            transform: translateY(-50%);
-        }
-
-        header h1 {
-            display: inline-block;
         }
 
         section {
@@ -36,7 +20,7 @@
             margin: 0 auto;
         }
 
-        h1 {
+        h2 {
             color: #333;
         }
 
@@ -66,7 +50,6 @@
 <body>
     <header>
         <h1>Muhammad Abdullah</h1>
-        <img src="your-image-url.jpg" alt="Muhammad Abdullah" />
         <p>Cyber Security Student at Air University</p>
     </header>
 
@@ -82,25 +65,13 @@
     <section>
         <h2>CTF Achievements</h2>
         <p>
-            - Top 10 in Cyber Security Hackathon 2023 organized by Ignite.<br>
+            - Top 10 in Cyber Security Hackathon 2023 organized by Ignite.
             - 5th in Cyber Sleuth Quest 2023 organized by Sir Syed University of Engineering and Technology.
         </p>
     </section>
-
-    <!-- Social Media Icons -->
+    
     <footer>
         <p>Contact me at: muhammadabdullah8040@gmail.com</p>
     </footer>
-     <div class="social-icons">
-        <a href="https://twitter.com/iabdullah_215" target="_blank"><i style="font-size: 20px;"></i> Twitter</a>
-        <br>
-        <a href="https://www.instagram.com/iabdullah_215/" target="_blank"><i style="font-size: 20px;"></i> Instagram</a>
-        <br>
-        <a href="https://medium.com/@iabdullah_215" target="_blank"><i style="font-size: 20px;"></i> Medium</a>
-        <br>
-        <a href="https://tryhackme.com/p/M.n.M" target="_blank"><i style="font-size: 20px;"></i> TryHackMe</a>
-        <br>
-        <!-- Add more social media icons as needed -->
-    </div>
 </body>
 </html>
