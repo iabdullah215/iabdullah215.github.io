@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,17 +14,21 @@
             text-align: center;
             padding: 30px;
             background-color: #f0f0f0;
-            position: relative; /* Added to position the image */
+            position: relative;
         }
 
         header img {
-            width: 100px; /* Adjust the size of the image */
+            width: 100px;
             height: 100px;
-            border-radius: 50%; /* Makes the image circular */
+            border-radius: 50%;
             position: absolute;
             top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            right: 0; 
+            transform: translateY(-50%);
+        }
+
+        header h1 {
+            display: inline-block;
         }
 
         section {
@@ -60,8 +65,8 @@
 </head>
 <body>
     <header>
-        <img src="https://images.credly.com/size/680x680/images/6f960f31-a9ab-4ec7-85e2-0a28e370d942/blob.jpeg" alt="Muhammad Abdullah" /> <!-- Replace "your-image-url.jpg" with the URL of your image -->
         <h1>Muhammad Abdullah</h1>
+        <img src="your-image-url.jpg" alt="Muhammad Abdullah" />
         <p>Cyber Security Student at Air University</p>
     </header>
 
