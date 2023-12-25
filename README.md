@@ -65,7 +65,7 @@
     <section>
         <h2>CTF Achievements</h2>
         <p>
-            - Top 10 in Cyber Security Hackathon 2023 organized by Ignite.
+            - Top 10 in Cyber Security Hackathon 2023 organized by Ignite.<br>
             - 5th in Cyber Sleuth Quest 2023 organized by Sir Syed University of Engineering and Technology.
         </p>
     </section>
