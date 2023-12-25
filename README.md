@@ -13,6 +13,17 @@
             text-align: center;
             padding: 30px;
             background-color: #f0f0f0;
+            position: relative; /* Added to position the image */
+        }
+
+        header img {
+            width: 100px; /* Adjust the size of the image */
+            height: 100px;
+            border-radius: 50%; /* Makes the image circular */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         section {
@@ -20,7 +31,7 @@
             margin: 0 auto;
         }
 
-        h2 {
+        h1 {
             color: #333;
         }
 
@@ -49,6 +60,7 @@
 </head>
 <body>
     <header>
+        <img src="https://images.credly.com/size/680x680/images/6f960f31-a9ab-4ec7-85e2-0a28e370d942/blob.jpeg" alt="Muhammad Abdullah" /> <!-- Replace "your-image-url.jpg" with the URL of your image -->
         <h1>Muhammad Abdullah</h1>
         <p>Cyber Security Student at Air University</p>
     </header>
