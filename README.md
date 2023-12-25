@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -66,22 +65,25 @@
     <section>
         <h2>CTF Achievements</h2>
         <p>
-            - Top 10 in Cyber Security Hackathon 2023 organized by Ignite.
+            - Top 10 in Cyber Security Hackathon 2023 organized by Ignite.<br>
             - 5th in Cyber Sleuth Quest 2023 organized by Sir Syed University of Engineering and Technology.
         </p>
     </section>
 
     <!-- Social Media Icons -->
-    <div class="social-icons">
-        <a href="https://twitter.com/iabdullah_215" target="_blank"><i style="font-size: 20px;"></i> Twitter</a>
-        <a href="https://www.instagram.com/iabdullah_215/" target="_blank"><i style="font-size: 20px;"></i> Instagram</a>
-        <a href="https://medium.com/@iabdullah_215" target="_blank"><i style="font-size: 20px;"></i> Medium</a>
-        <a href="https://tryhackme.com/p/M.n.M" target="_blank"><i style="font-size: 20px;"></i> TryHackMe</a>
-        <!-- Add more social media icons as needed -->
-    </div>
-
     <footer>
         <p>Contact me at: muhammadabdullah8040@gmail.com</p>
     </footer>
+     <div class="social-icons">
+        <a href="https://twitter.com/iabdullah_215" target="_blank"><i style="font-size: 20px;"></i> Twitter</a>
+        <br>
+        <a href="https://www.instagram.com/iabdullah_215/" target="_blank"><i style="font-size: 20px;"></i> Instagram</a>
+        <br>
+        <a href="https://medium.com/@iabdullah_215" target="_blank"><i style="font-size: 20px;"></i> Medium</a>
+        <br>
+        <a href="https://tryhackme.com/p/M.n.M" target="_blank"><i style="font-size: 20px;"></i> TryHackMe</a>
+        <br>
+        <!-- Add more social media icons as needed -->
+    </div>
 </body>
 </html>
